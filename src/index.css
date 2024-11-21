@@ -1,0 +1,30 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+#root {
+  text-align: center;
+}
+
+header div {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+main {
+  margin: 0 auto;
+  max-width: 1280px;
+}
+
+.list .pokemon-card {
+  cursor: pointer;
+  min-height: 360px;
+}
+
+.list .pokemon-card:hover {
+  background-color: var(--bs-primary) !important;
+}
